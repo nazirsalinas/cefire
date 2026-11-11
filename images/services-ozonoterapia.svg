@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Molécula de Ozono Medicinal (O3) -->
+  <!-- Enlace 1 -->
+  <line x1="32" y1="18" x2="19" y2="40" stroke-width="2.6" />
+  <!-- Enlace 2 -->
+  <line x1="32" y1="18" x2="45" y2="40" stroke-width="2.6" />
+  <!-- Enlace resonante O3 -->
+  <line x1="22" y1="42" x2="42" y2="42" stroke-width="2" stroke-dasharray="3 3" opacity="0.8" />
+  
+  <!-- Átomo de Oxígeno Superior -->
+  <circle cx="32" cy="18" r="7" fill="#4F7F6B" stroke="#FFFFFF" stroke-width="2.4" />
+  <text x="32" y="22" text-anchor="middle" font-family="'Cabin', sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF" stroke="none">O</text>
+  
+  <!-- Átomo de Oxígeno Inferior Izquierdo -->
+  <circle cx="19" cy="42" r="7" fill="#4F7F6B" stroke="#FFFFFF" stroke-width="2.4" />
+  <text x="19" y="46" text-anchor="middle" font-family="'Cabin', sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF" stroke="none">O</text>
+  
+  <!-- Átomo de Oxígeno Inferior Derecho -->
+  <circle cx="45" cy="42" r="7" fill="#4F7F6B" stroke="#FFFFFF" stroke-width="2.4" />
+  <text x="45" y="46" text-anchor="middle" font-family="'Cabin', sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF" stroke="none">O</text>
+  
+  <!-- Partículas activas de oxígeno y bio-reparación -->
+  <circle cx="32" cy="54" r="2" fill="#FFFFFF" stroke="none" />
+  <circle cx="24" cy="56" r="1.4" fill="#FFFFFF" stroke="none" opacity="0.7" />
+  <circle cx="40" cy="56" r="1.4" fill="#FFFFFF" stroke="none" opacity="0.7" />
+  <path d="M 12 26 C 9 20, 15 14, 21 16" stroke-width="1.6" opacity="0.6" />
+  <path d="M 52 26 C 55 20, 49 14, 43 16" stroke-width="1.6" opacity="0.6" />
+</svg>

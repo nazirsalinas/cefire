@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria en La Plata. Dirección médica: M.V. Mayra Bazán y M.V. Mariano Bonino.">
+	<title>CEFIRE | Centro de Fisioterapia y Rehabilitación Veterinaria - La Plata</title>
+	<link rel="icon" type="image/png" href="images/cefire-isotipo.png">
+	
+	<!-- Hojas de estilo del template -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Fuentes oficiales vía HTTPS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+	</head>
+	<body class="homepage">
+		<!-- Navigation -->
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Desplegar navegación</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" title="CEFIRE - Centro de Fisioterapia y Rehabilitación">
+						<img src="images/cefire-logo.svg" alt="CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria" class="logo-img" />
+					</a></h1>
+				</div>	
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html" title="Inicio"><span data-hover="Inicio">Inicio</span></a>
+						</li>
+						<li>
+							<a href="about.html" title="Nosotros"><span data-hover="Nosotros">Nosotros</span></a>
+						</li>
+												<li class="dropdown">
+							<a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="Servicios">Servicios</span> <b class="caret"></b></a>
+														<ul class="dropdown-menu">
+								<li><a href="services.html">Todos los Servicios</a></li>
+								<li><a href="servicio-fisioterapia.html">Fisioterapia y Rehabilitaci&oacute;n</a></li>
+								<li><a href="servicio-acupuntura.html">Acupuntura Veterinaria</a></li>
+								<li><a href="servicio-ozonoterapia.html">Ozonoterapia Veterinaria</a></li>
+								<li><a href="servicio-rehabilitacion-motriz.html">Rehabilitaci&oacute;n Motriz y Columna</a></li>
+								<li><a href="servicio-postquirurgicos.html">Postquir&uacute;rgicos y Traumatolog&iacute;a</a></li>
+								<li><a href="servicio-magnetoterapia.html">Magnetoterapia y Terapias F&iacute;sicas</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="pacientes.html" title="Pacientes"><span data-hover="Pacientes">Pacientes</span></a>
+						</li>
+						<li>
+							<a href="contact.html" title="Contacto"><span data-hover="Contacto">Contacto</span></a>
+						</li>
+						<li class="purchase-btn">
+							<form method="get" action="turnos.html">
+								<button type="submit" class="btn btn-default">Pedir Turno</button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Navigation end -->
+		
+		<!-- Slider -->
+		<div id="home_carousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#home_carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#home_carousel" data-slide-to="1"></li>
+				<li data-target="#home_carousel" data-slide-to="2"></li>
+			</ol>
+			
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/cefire-hero-rehab.jpg" alt="Fisioterapia y Rehabilitación Veterinaria CEFIRE" />
+					<div class="carousel-caption">
+						<h2>Fisioterapia &amp; Rehabilitación</h2>
+					    <p>Centro especializado en fisiatría clínica animal, recuperación motriz y bienestar integral en La Plata. Devolvemos el movimiento y la calidad de vida a tu compañero.</p>
+					    <form method="get" action="services.html">
+					    	<button type="submit" class="btn btn-lg btn-default">Ver Servicios</button>
+					    </form>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/cefire-acupuncture.jpg" alt="Acupuntura Veterinaria y Manejo del Dolor - Dra. Mayra Bazán" />
+					<div class="carousel-caption">
+						<h2>Acupuntura &amp; Fisiatría Clínica</h2>
+					    <p>Modulación neurofuncional y tratamiento del dolor osteoarticular crónico a cargo de la M.V. Mayra Bazán. Terapias no invasivas para devolver confort a tu mascota.</p>
+					    <form method="get" action="servicio-acupuntura.html">
+					    	<button type="submit" class="btn btn-lg btn-default">Conocer Acupuntura</button>
+					    </form>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/cefire-proprioception.jpg" alt="Rehabilitaci&oacute;n Motriz y Neurología - Dr. Mariano Bonino" />
+					<div class="carousel-caption">
+						<h2>Rehabilitaci&oacute;n Motriz &amp; Columna</h2>
+					    <p>Recuperación de parálisis, afecciones medulares y seguimiento postquirúrgico a cargo del M.V. Mariano Bonino con circuitos guiados de propiocepción.</p>
+					    <form method="get" action="servicio-rehabilitacion-motriz.html">
+					    	<button type="submit" class="btn btn-lg btn-default">Ver Rehabilitaci&oacute;n Motriz</button>
+					    </form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Controls -->
+			<a class="left carousel-control" href="#home_carousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#home_carousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<!-- Slider end -->
+		
+		<!-- Intro / Quiénes Somos -->
+		<div class="container" style="padding-top: 45px; padding-bottom: 25px;">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 text-center">
+					<h3 style="font-size: 28px; color: #1C463B; font-weight: 700; margin-bottom: 16px;">¿Quiénes Somos?</h3>
+					<p style="font-size: 17px; line-height: 1.7; color: #555; margin-bottom: 15px;">
+						En <strong>CEFIRE</strong> nos dedicamos a la rehabilitaci&oacute;n veterinaria, con el objetivo de <strong>favorecer la recuperaci&oacute;n funcional, aliviar el dolor y mejorar la calidad de vida</strong> de nuestros pacientes.
+					</p>
+					<p style="font-size: 15.5px; line-height: 1.7; color: #666; margin-bottom: 20px;">
+						Trabajamos con un enfoque integral e individualizado, teniendo en cuenta la condici&oacute;n cl&iacute;nica, las necesidades y la etapa de recuperaci&oacute;n de cada animal. Nuestro abordaje se basa en la <strong>terapia multimodal</strong>, que permite utilizar diferentes t&eacute;cnicas y tratamientos, de manera individual o combinada.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services -->
+		<div class="container">
+			<div class="row">
+				<!-- 1. Fisioterapia y Rehabilitación -->
+				<div class="col-md-4 col3">
+					<a href="servicio-fisioterapia.html" title="Fisioterapia y Rehabilitaci&oacute;n" class="roundal" id="kennel"></a>
+					<h3>Fisioterapia y Rehabilitación</h3>
+					<p>Agentes físicos y equipos terapéuticos (láser, fototerapia, magnetoterapia, ultrasonido, TENS, electroestimulación) y ejercicios asistidos.</p>
+					<form method="get" action="servicio-fisioterapia.html">
+						<button type="submit" class="btn btn-default btn-green">Ver Detalle</button>
+					</form>
+				</div>
+				<!-- 2. Acupuntura Veterinaria -->
+				<div class="col-md-4 col3">
+					<a href="servicio-acupuntura.html" title="Acupuntura Veterinaria" class="roundal" id="walking"></a>
+					<h3>Acupuntura Veterinaria</h3>
+					<p>Técnica de Medicina Tradicional China para el manejo del dolor y el abordaje de trastornos musculoesqueléticos y neurológicos con Dra. Mayra.</p>
+					<form method="get" action="servicio-acupuntura.html">
+						<button type="submit" class="btn btn-default btn-green">Ver Detalle</button>
+					</form>
+				</div>
+				<!-- 3. Ozonoterapia Veterinaria -->
+				<div class="col-md-4 col3">
+					<a href="servicio-ozonoterapia.html" title="Ozonoterapia Veterinaria" class="roundal" id="ozonoterapia"></a>
+					<h3>Ozonoterapia Veterinaria</h3>
+					<p>Aplicación de oxígeno y ozono medicinal para modular procesos inflamatorios, estrés oxidativo y apoyo en reparación tisular.</p>
+					<form method="get" action="servicio-ozonoterapia.html">
+						<button type="submit" class="btn btn-default btn-green">Ver Detalle</button>
+					</form>
+				</div>
+				<!-- 4. Rehabilitación Motriz y Columna -->
+				<div class="col-md-4 col3">
+					<a href="servicio-rehabilitacion-motriz.html" title="Rehabilitaci&oacute;n Motriz y Columna" class="roundal" id="grooming"></a>
+					<h3>Rehabilitaci&oacute;n Motriz y Columna</h3>
+					<p>Abordaje intensivo para parálisis, paresias, hernias de disco y lesiones medulares con reactivación de patrones de marcha funcionales.</p>
+					<form method="get" action="servicio-rehabilitacion-motriz.html">
+						<button type="submit" class="btn btn-default btn-green">Ver Detalle</button>
+					</form>
+				</div>
+				<!-- 5. Postquirúrgicos y Traumatología -->
+				<div class="col-md-4 col3">
+					<a href="servicio-postquirurgicos.html" title="Postquirúrgicos y Traumatología" class="roundal" id="adoption"></a>
+					<h3>Postquir&uacute;rgicos y Traumatología</h3>
+					<p>Acompañamiento especializado en postoperatorios ortopédicos y neurológicos, reduciendo dolor y acelerando la cicatrización ósea.</p>
+					<form method="get" action="servicio-postquirurgicos.html">
+						<button type="submit" class="btn btn-default btn-green">Ver Detalle</button>
+					</form>
+				</div>
+				<!-- 6. Terapias Físicas e Instrumental -->
+				<div class="col-md-4 col3">
+					<a href="servicio-magnetoterapia.html" title="Magnetoterapia y Terapias Físicas" class="roundal" id="advice"></a>
+					<h3>Magnetoterapia y Terapias Físicas</h3>
+					<p>Campos magnéticos pulsátiles, termoterapia y electroterapia para desinflamación profunda y consolidación en fisuras y fracturas.</p>
+					<form method="get" action="servicio-magnetoterapia.html">
+						<button type="submit" class="btn btn-default btn-green">Ver Detalle</button>
+					</form>
+				</div>
+			</div>
+
+			<!-- Cuándo ayuda la rehabilitación -->
+			<div class="row" style="margin-top: 40px; margin-bottom: 25px;">
+				<div class="col-md-12">
+					<div style="background: #fbfdfc; border: 1px solid #dce8e1; border-radius: 8px; padding: 35px 30px;">
+						<h3 style="margin-top: 0; color: #1C463B; font-weight: 700; text-align: center; margin-bottom: 25px; font-size: 22px;">¿En qué casos puede ayudar la rehabilitación?</h3>
+						<div class="row" style="font-size: 15px; color: #444; line-height: 1.8;">
+							<div class="col-md-6">
+								<ul style="padding-left: 20px;">
+									<li><strong>Enfermedades traumatológicas y neurológicas.</strong></li>
+									<li><strong>Recuperación después de cirugías.</strong></li>
+									<li><strong>Artrosis, displasia y enfermedades articulares.</strong></li>
+									<li><strong>Dolor agudo o crónico.</strong></li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul style="padding-left: 20px;">
+									<li><strong>Debilidad muscular, atrofia y dificultades para caminar.</strong></li>
+									<li><strong>Pacientes gerontes con movilidad reducida.</strong></li>
+									<li><strong>Lesiones musculares, tendinosas y ligamentarias.</strong></li>
+								</ul>
+							</div>
+						</div>
+						<div style="text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed #4F7F6B;">
+							<p style="margin: 0; color: #1C463B; font-weight: 700; font-size: 15.5px;">
+								"El objetivo no siempre es recuperar completamente una función, sino también aliviar el dolor, mantener la movilidad y mejorar la calidad de vida."
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 centered">
+					<h3><span>Nuestros Pacientes en Recuperación</span></h3>
+					<p>Acompañamos a perros y gatos en cada etapa de su tratamiento. Conocé algunos de los pacientes que asisten a sus sesiones de fisioterapia y rehabilitación en CEFIRE.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Services end -->
+		
+		<!-- Carousel -->
+		<div id="c-carousel">
+			<div id="wrapper">
+				<div id="carousel">
+					<div>
+						<a href="images/paciente-1.jpg" title="Simón" data-hover="Simón - Rehabilitación motriz" data-toggle="lightbox" class="lightbox">
+							<img src="images/paciente-1.jpg" alt="Simón - Recuperación de movilidad" />
+						</a>
+					</div>
+					<div>
+						<a href="images/paciente-2.jpg" title="Lola" data-hover="Lola - Propiocepción y balance" data-toggle="lightbox" class="lightbox">
+							<img src="images/paciente-2.jpg" alt="Lola - Ejercicios propioceptivos" />
+						</a>
+					</div>
+					<div>
+						<a href="images/paciente-3.jpg" title="Kyla" data-hover="Kyla - Recuperación de columna" data-toggle="lightbox" class="lightbox">
+							<img src="images/paciente-3.jpg" alt="Kyla - Rehabilitación de columna" />
+						</a>
+					</div>
+					<div>
+						<a href="images/paciente-4.jpg" title="Rocco" data-hover="Rocco - Circuitos de cavalettis" data-toggle="lightbox" class="lightbox">
+							<img src="images/paciente-4.jpg" alt="Rocco - Cavalettis terapéuticos" />
+						</a>
+					</div>
+					<div>
+						<a href="images/paciente-5.jpg" title="Toby" data-hover="Toby - Cinesiterapia activa" data-toggle="lightbox" class="lightbox">
+							<img src="images/paciente-5.jpg" alt="Toby - Fisioterapia clínica" />
+						</a>
+					</div>
+					<div>
+						<a href="images/paciente-6.jpg" title="Milo" data-hover="Milo - Acupuntura y bienestar" data-toggle="lightbox" class="lightbox">
+							<img src="images/paciente-6.jpg" alt="Milo - Manejo integral del dolor" />
+						</a>
+					</div>
+				</div>
+				<div id="pager" class="pager"></div>
+			</div>
+		</div>
+		<!-- Carousel end -->
+		
+		<!-- Rehome / Derivaciones -->
+		<div class="rehome">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 centered">
+						<p><a href="turnos.html" title="Solicitar Turno CEFIRE" class="roundal" id="advice"></a></p>
+						<h4>&iquest;Tu veterinario de cabecera te indic&oacute; rehabilitaci&oacute;n?</h4>
+						<p>Trabajamos de manera interdisciplinaria con colegas veterinarios y traumat&oacute;logos para ofrecer la mejor continuidad asistencial a tu paciente.</p>
+						<form method="get" action="turnos.html">	
+							<button type="submit" class="btn btn-default btn-green">Solicitar Turno</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Rehome end -->
+		
+		<!-- Services Showcase Carousel -->
+		<div class="testimonials" data-stellar-background-ratio="0.6">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 centered" style="padding: 45px 0;">
+						<div id="services_carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+							<!-- Indicators -->
+							<ol class="carousel-indicators" style="bottom: -20px;">
+								<li data-target="#services_carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#services_carousel" data-slide-to="1"></li>
+								<li data-target="#services_carousel" data-slide-to="2"></li>
+								<li data-target="#services_carousel" data-slide-to="3"></li>
+								<li data-target="#services_carousel" data-slide-to="4"></li>
+								<li data-target="#services_carousel" data-slide-to="5"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" style="min-height: 250px; padding: 15px 50px;">
+								<!-- 1. Fisioterapia y Rehabilitación -->
+								<div class="item active">
+									<div style="display: inline-block; background: rgba(79, 127, 107, 0.25); border: 1px solid #4F7F6B; color: #A7DECA; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Fisioterapia &bull; Mariano Bonino &amp; Mayra Bazán</div>
+									<h3 style="color: #ffffff; font-size: 30px; margin: 0 0 14px 0; font-weight: 700; background: none !important; width: auto !important; border: none !important;">Fisioterapia y Rehabilitación</h3>
+									<p style="color: #E8F5E9; font-size: 18px; max-width: 820px; margin: 0 auto 24px auto; line-height: 1.6;">
+										Agentes físicos, láser, magnetoterapia, ultrasonido, TENS, electroestimulación y ejercicios asistidos adaptados para controlar el dolor y recuperar la movilidad.
+									</p>
+									<a href="servicio-fisioterapia.html" class="btn btn-default btn-green btn-lg" style="padding: 10px 28px;">Ver Servicio de Fisioterapia &rarr;</a>
+								</div>
+
+								<!-- 2. Acupuntura Veterinaria -->
+								<div class="item">
+									<div style="display: inline-block; background: rgba(79, 127, 107, 0.25); border: 1px solid #4F7F6B; color: #A7DECA; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Manejo del Dolor &bull; M.V. Mayra Bazán</div>
+									<h3 style="color: #ffffff; font-size: 30px; margin: 0 0 14px 0; font-weight: 700; background: none !important; width: auto !important; border: none !important;">Acupuntura Veterinaria</h3>
+									<p style="color: #E8F5E9; font-size: 18px; max-width: 820px; margin: 0 auto 24px auto; line-height: 1.6;">
+										Técnica de Medicina Tradicional China para el manejo del dolor agudo y crónico y el abordaje de trastornos musculoesqueléticos y neurológicos.
+									</p>
+									<a href="servicio-acupuntura.html" class="btn btn-default btn-green btn-lg" style="padding: 10px 28px;">Ver Servicio de Acupuntura &rarr;</a>
+								</div>
+
+								<!-- 3. Ozonoterapia Veterinaria -->
+								<div class="item">
+									<div style="display: inline-block; background: rgba(79, 127, 107, 0.25); border: 1px solid #4F7F6B; color: #A7DECA; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Terapia Biológica &bull; M.V. Mayra Bazán</div>
+									<h3 style="color: #ffffff; font-size: 30px; margin: 0 0 14px 0; font-weight: 700; background: none !important; width: auto !important; border: none !important;">Ozonoterapia Veterinaria</h3>
+									<p style="color: #E8F5E9; font-size: 18px; max-width: 820px; margin: 0 auto 24px auto; line-height: 1.6;">
+										Aplicación de oxígeno y ozono medicinal para modular procesos inflamatorios, estrés oxidativo y apoyo en la reparación celular de tejidos.
+									</p>
+									<a href="servicio-ozonoterapia.html" class="btn btn-default btn-green btn-lg" style="padding: 10px 28px;">Ver Servicio de Ozonoterapia &rarr;</a>
+								</div>
+
+								<!-- 4. Rehabilitación Motriz y Columna -->
+								<div class="item">
+									<div style="display: inline-block; background: rgba(79, 127, 107, 0.25); border: 1px solid #4F7F6B; color: #A7DECA; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Área Neurológica &bull; M.V. Mariano Bonino</div>
+									<h3 style="color: #ffffff; font-size: 30px; margin: 0 0 14px 0; font-weight: 700; background: none !important; width: auto !important; border: none !important;">Rehabilitación Motriz &amp; Columna</h3>
+									<p style="color: #E8F5E9; font-size: 18px; max-width: 820px; margin: 0 auto 24px auto; line-height: 1.6;">
+										Abordaje intensivo para parálisis, paresias, hernias de disco y lesiones medulares o degenerativas con reactivación de patrones de marcha.
+									</p>
+									<a href="servicio-rehabilitacion-motriz.html" class="btn btn-default btn-green btn-lg" style="padding: 10px 28px;">Ver Servicio de Rehabilitación &rarr;</a>
+								</div>
+
+								<!-- 5. Postquirúrgicos Complejos -->
+								<div class="item">
+									<div style="display: inline-block; background: rgba(79, 127, 107, 0.25); border: 1px solid #4F7F6B; color: #A7DECA; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Traumatología &amp; Ortopedia &bull; Mayra &amp; Mariano</div>
+									<h3 style="color: #ffffff; font-size: 30px; margin: 0 0 14px 0; font-weight: 700; background: none !important; width: auto !important; border: none !important;">Postquirúrgicos Complejos</h3>
+									<p style="color: #E8F5E9; font-size: 18px; max-width: 820px; margin: 0 auto 24px auto; line-height: 1.6;">
+										Acompañamiento especializado en postoperatorios de TPLO, fracturas y laminectomías, acelerando la cicatrización ósea y previniendo la atrofia.
+									</p>
+									<a href="servicio-postquirurgicos.html" class="btn btn-default btn-green btn-lg" style="padding: 10px 28px;">Ver Servicio Postquirúrgicos &rarr;</a>
+								</div>
+
+								<!-- 6. Magnetoterapia y Terapias Físicas -->
+								<div class="item">
+									<div style="display: inline-block; background: rgba(79, 127, 107, 0.25); border: 1px solid #4F7F6B; color: #A7DECA; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Biofísica Médica &bull; CEFIRE La Plata</div>
+									<h3 style="color: #ffffff; font-size: 30px; margin: 0 0 14px 0; font-weight: 700; background: none !important; width: auto !important; border: none !important;">Magnetoterapia y Terapias Físicas</h3>
+									<p style="color: #E8F5E9; font-size: 18px; max-width: 820px; margin: 0 auto 24px auto; line-height: 1.6;">
+										Aplicación de campos magnéticos pulsátiles con efectos antiinflamatorios profundos, regeneración celular y consolidación en fisuras y fracturas.
+									</p>
+									<a href="servicio-magnetoterapia.html" class="btn btn-default btn-green btn-lg" style="padding: 10px 28px;">Ver Servicio de Magnetoterapia &rarr;</a>
+								</div>
+							</div>
+							<a class="left carousel-control" href="#services_carousel" data-slide="prev" style="background: none; width: 45px;">
+								<span class="glyphicon glyphicon-chevron-left" style="color: #ffffff; font-size: 32px; top: 45%;"></span>
+							</a>
+							<a class="right carousel-control" href="#services_carousel" data-slide="next" style="background: none; width: 45px;">
+								<span class="glyphicon glyphicon-chevron-right" style="color: #ffffff; font-size: 32px; top: 45%;"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Services Showcase Carousel end -->
+		
+		<!-- Purchase / CTA bar -->
+		<div class="purchase">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<p><strong>CEFIRE</strong> Centro de Fisioterapia y Rehabilitación Veterinaria<br />
+						<span>M.V. Mayra Bazán &bull; M.V. Mariano Bonino &bull; Calle 30 N.° 1367, La Plata</span></p>
+					</div>
+					<div class="col-md-3 purchase-button">
+						<form method="get" action="turnos.html">
+							<button type="submit" class="btn btn-default btn-green">Pedir Turno</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Purchase end -->
+		
+		<!-- Footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<a href="index.html" class="footer-brand"><img src="images/cefire-logo-white.svg" alt="CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria" /></a>
+						<h6>Sobre CEFIRE</h6>
+						<p><strong>Centro dedicado a la fisioterapia, fisiatría, acupuntura y rehabilitación motriz animal.</strong></p>
+						<p>Dirección médica a cargo de la M.V. Mayra Bazán y el M.V. Mariano Bonino en La Plata, Buenos Aires.</p>
+					</div>
+					<div class="col-md-3 blog">
+						<h6>Servicios Destacados</h6>
+						<p class="title"><a href="services.html" title="Rehabilitaci&oacute;n Motriz">Rehabilitaci&oacute;n Motriz</a></p>
+						<p>Recuperación de parálisis, paresias y lesiones de columna con enfoque progresivo y sin dolor.</p>
+						<p><a href="services.html" title="Ver servicios">Ver todos los servicios&hellip;</a></p>
+					</div>
+					<div class="col-md-3">
+						<h6>Navegación</h6>
+						<ul>
+							<li><a href="index.html" title="Inicio">Inicio</a></li>
+							<li><a href="about.html" title="Nosotros">Nosotros</a></li>
+							<li><a href="services.html" title="Servicios">Servicios</a></li>
+							<li><a href="pacientes.html" title="Pacientes">Pacientes</a></li>
+							<li><a href="contact.html" title="Contacto">Contacto</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 contact-info">
+						<h6>Contacto</h6>
+						<p>Coordiná un turno o evaluación para tu mascota comunicándote con nuestro equipo.</p>
+						<p style="margin-top: 14px; margin-bottom: 18px;">
+							<a href="https://www.instagram.com/cefire.vet/" target="_blank" rel="noopener noreferrer" class="footer-ig-btn" title="Instagram @cefire.vet">
+								<img src="images/instagram.svg" alt="Instagram CEFIRE" />
+								<span>@cefire.vet</span>
+							</a>
+						</p>
+						<p class="c-details">
+							<span>Direcci&oacute;n:</span> Calle 30 N.&deg; 1367, La Plata<br />
+							<span>Turnos:</span> Atenci&oacute;n con turno previo
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 copyright">
+						<p>&copy; 2026 CEFIRE - Centro de Fisioterapia y Rehabilitaci&oacute;n Veterinaria. Desarrollado por <a href="https://www.linkedin.com/in/benjisalinas/" target="_blank" rel="noopener noreferrer" style="font-weight: 700; text-decoration: underline;">Benji Salinas</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer end -->
+		
+		<!-- Javascript plugins -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/carouFredSel.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/ekkoLightbox.js"></script>
+		<script src="js/custom.js"></script>
+					<!-- Floating Dual WhatsApp Buttons -->
+		<div class="cefire-wa-floating">
+			<a href="https://wa.me/5492216332777?text=Hola%20Dra.%20Mayra%20Baz%C3%A1n,%20quisiera%20solicitar%20un%20turno%20en%20CEFIRE" target="_blank" rel="noopener noreferrer" class="wa-btn wa-mayra" title="WhatsApp Dra. Mayra Bazán">
+				<span class="wa-icon">
+					<img src="images/whatsapp.svg" alt="WhatsApp Dra. Mayra" />
+				</span>
+				<span class="wa-text"><strong>Dra. Mayra</strong> <span>Fisioterapia &bull; Acupuntura &bull; Ozono</span></span>
+			</a>
+			<a href="https://wa.me/5492214086046?text=Hola%20Dr.%20Mariano%20Bonino,%20quisiera%20solicitar%20un%20turno%20en%20CEFIRE" target="_blank" rel="noopener noreferrer" class="wa-btn wa-mariano" title="WhatsApp Dr. Mariano Bonino">
+				<span class="wa-icon">
+					<img src="images/whatsapp.svg" alt="WhatsApp Dr. Mariano" />
+				</span>
+				<span class="wa-text"><strong>Dr. Mariano</strong> <span>Fisioterapia &bull; Rehabilitaci&oacute;n</span></span>
+			</a>
+		</div>
+	</body>
+</html>
+
+
+
+

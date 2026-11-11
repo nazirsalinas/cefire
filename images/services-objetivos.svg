@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Diana / Blanco de metas asistidas -->
+  <circle cx="32" cy="32" r="23" stroke-width="2.2" />
+  <circle cx="32" cy="32" r="15" stroke-width="1.8" stroke-dasharray="3 3" />
+  <!-- Pata canina en el centro del objetivo -->
+  <path d="M32 38 C 29 38, 27 34, 29 31 C 30 29.5, 34 29.5, 35 31 C 37 34, 35 38, 32 38 Z" fill="#FFFFFF" />
+  <circle cx="26" cy="27" r="2.2" fill="#FFFFFF" />
+  <circle cx="30" cy="24" r="2.2" fill="#FFFFFF" />
+  <circle cx="34" cy="24" r="2.2" fill="#FFFFFF" />
+  <circle cx="38" cy="27" r="2.2" fill="#FFFFFF" />
+  <!-- Guías en cruz de calibración -->
+  <line x1="32" y1="5" x2="32" y2="10" stroke-width="2.5" />
+  <line x1="32" y1="54" x2="32" y2="59" stroke-width="2.5" />
+  <line x1="5" y1="32" x2="10" y2="32" stroke-width="2.5" />
+  <line x1="54" y1="32" x2="59" y2="32" stroke-width="2.5" />
+</svg>

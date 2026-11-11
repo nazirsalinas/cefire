@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .doodle {
+        fill: none;
+        stroke: #3D6A56;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0.16;
+      }
+      .doodle-fill {
+        fill: #3D6A56;
+        opacity: 0.16;
+      }
+    </style>
+  </defs>
+
+  <!-- 1. Pelota de Fisioterapia (Fitball) con franjas arriba a la izquierda -->
+  <g transform="translate(40, 40)">
+    <circle cx="0" cy="0" r="22" class="doodle" />
+    <path d="M -18 -8 Q 0 -14 18 -8" class="doodle" />
+    <path d="M -21 2 Q 0 -4 21 2" class="doodle" />
+    <path d="M -18 12 Q 0 6 18 12" class="doodle" />
+  </g>
+
+  <!-- 2. Cruz veterinaria suave -->
+  <g transform="translate(140, 30)">
+    <path d="M -4 -12 h 8 v 8 h 8 v 8 h -8 v 8 h -8 v -8 h -8 v -8 h 8 z" class="doodle-fill" />
+  </g>
+
+  <!-- 3. Silueta de Gato sentado -->
+  <g transform="translate(240, 50)">
+    <path d="M -8 18 C -12 18 -12 4 -8 -2 C -10 -4 -12 -12 -8 -16 C -6 -14 -4 -12 -2 -14 C 2 -12 4 -14 6 -16 C 10 -12 8 -4 6 -2 C 10 4 10 18 6 18 Z" class="doodle" />
+    <!-- Cola -->
+    <path d="M 6 16 C 14 16 16 8 14 4" class="doodle" />
+  </g>
+
+  <!-- 4. Agujas de Acupuntura -->
+  <g transform="translate(50, 140)">
+    <line x1="-12" y1="14" x2="14" y2="-12" class="doodle" stroke-width="1.2" />
+    <circle cx="-13" cy="15" r="1.8" class="doodle-fill" />
+    <line x1="-8" y1="10" x2="-4" y2="6" class="doodle" stroke-width="2.5" />
+  </g>
+
+  <!-- 5. Huellita de Mascota -->
+  <g transform="translate(150, 130)">
+    <ellipse cx="0" cy="4" rx="7" ry="5.5" class="doodle-fill" />
+    <ellipse cx="-8" cy="-6" rx="2.8" ry="4" class="doodle-fill" />
+    <ellipse cx="-1" cy="-9" rx="2.8" ry="4" class="doodle-fill" />
+    <ellipse cx="6" cy="-8" rx="2.8" ry="4" class="doodle-fill" />
+    <ellipse cx="11" cy="-2" rx="2.5" ry="3.5" class="doodle-fill" />
+  </g>
+
+  <!-- 6. Rama de Hojas Botánicas -->
+  <g transform="translate(250, 160)">
+    <path d="M -16 16 Q 0 0 16 -16" class="doodle" />
+    <path d="M -8 8 C -14 4 -12 -2 -6 2 Z" class="doodle-fill" />
+    <path d="M 0 0 C -4 -8 4 -8 6 -2 Z" class="doodle-fill" />
+    <path d="M 8 -8 C 4 -16 14 -14 12 -6 Z" class="doodle-fill" />
+  </g>
+
+  <!-- 7. Silueta de Perro parado -->
+  <g transform="translate(50, 240)">
+    <!-- Cuerpo y cabeza esquemáticos -->
+    <path d="M -16 10 L -16 0 C -16 -4 -10 -6 0 -6 L 10 -12 L 14 -10 L 10 -4 L 10 10 L 6 10 L 6 0 L -10 0 L -10 10 Z" class="doodle" />
+    <!-- Cola levantada -->
+    <path d="M -16 0 C -20 -6 -18 -10 -16 -12" class="doodle" />
+  </g>
+
+  <!-- 8. Otra Fitball pequeña -->
+  <g transform="translate(180, 240)">
+    <circle cx="0" cy="0" r="14" class="doodle" />
+    <path d="M -11 -5 Q 0 -9 11 -5" class="doodle" />
+    <path d="M -13 1 Q 0 -3 13 1" class="doodle" />
+    <path d="M -11 7 Q 0 3 11 7" class="doodle" />
+  </g>
+
+  <!-- 9. Otra aguja de acupuntura -->
+  <g transform="translate(260, 260)">
+    <line x1="12" y1="12" x2="-12" y2="-12" class="doodle" stroke-width="1.2" />
+    <circle cx="13" cy="13" r="1.8" class="doodle-fill" />
+  </g>
+</svg>

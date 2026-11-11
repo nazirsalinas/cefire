@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Escudo protector anatómico -->
+  <path d="M32 10 L48 16 V32 C48 44 32 54 32 54 C32 54 16 44 16 32 V16 Z" stroke-width="2.5" fill="#FFFFFF" fill-opacity="0.15" />
+  <!-- Cruz médica veterinaria central -->
+  <path d="M32 20 V38" stroke-width="3" stroke-linecap="square" />
+  <path d="M23 29 H41" stroke-width="3" stroke-linecap="square" />
+  <!-- Pulso de recuperación -->
+  <circle cx="32" cy="29" r="4" fill="#FFFFFF" />
+</svg>

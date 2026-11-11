@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Contacto y turnos en CEFIRE La Plata. Calle 30 N.° 1367. Fisioterapia y rehabilitación veterinaria.">
+	<title>Contacto | CEFIRE - Fisioterapia y Rehabilitación Veterinaria</title>
+	<link rel="icon" type="image/png" href="images/cefire-isotipo.png">
+	
+	<!-- Hojas de estilo del template -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Fuentes oficiales vía HTTPS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+	</head>
+	<body class="contentpage">
+		<!-- Navigation -->
+		<div class="navbar navbar-default navbar-fixed-top affix inner-pages" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Desplegar navegación</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" title="CEFIRE - Centro de Fisioterapia y Rehabilitación">
+						<img src="images/cefire-logo.svg" alt="CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria" class="logo-img" />
+					</a></h1>
+				</div>	
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html" title="Inicio"><span data-hover="Inicio">Inicio</span></a>
+						</li>
+						<li>
+							<a href="about.html" title="Nosotros"><span data-hover="Nosotros">Nosotros</span></a>
+						</li>
+												<li class="dropdown">
+							<a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="Servicios">Servicios</span> <b class="caret"></b></a>
+														<ul class="dropdown-menu">
+								<li><a href="services.html">Todos los Servicios</a></li>
+								<li><a href="servicio-fisioterapia.html">Fisioterapia y Rehabilitaci&oacute;n</a></li>
+								<li><a href="servicio-acupuntura.html">Acupuntura Veterinaria</a></li>
+								<li><a href="servicio-ozonoterapia.html">Ozonoterapia Veterinaria</a></li>
+								<li><a href="servicio-rehabilitacion-motriz.html">Rehabilitaci&oacute;n Motriz y Columna</a></li>
+								<li><a href="servicio-postquirurgicos.html">Postquir&uacute;rgicos y Traumatolog&iacute;a</a></li>
+								<li><a href="servicio-magnetoterapia.html">Magnetoterapia y Terapias F&iacute;sicas</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="pacientes.html" title="Pacientes"><span data-hover="Pacientes">Pacientes</span></a>
+						</li>
+						<li class="active">
+							<a href="contact.html" title="Contacto"><span data-hover="Contacto">Contacto</span></a>
+						</li>
+						<li class="purchase-btn">
+							<form method="get" action="turnos.html">
+								<button type="submit" class="btn btn-default">Pedir Turno</button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Navigation end -->
+		
+		<!-- Contact Header -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 centered">
+					<h3><span>Ubicación &amp; Contacto</span></h3>
+					<p>Atendemos de manera personalizada con turno previo en nuestro centro de La Plata. Podés comunicarte directamente con nosotros o solicitar la derivación de tu veterinario de cabecera.</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Map -->
+		<div style="width: 100%; height: 420px; margin: 40px 0; border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6;">
+			<iframe 
+				title="Ubicación CEFIRE La Plata"
+				src="https://maps.google.com/maps?q=Calle%2030%201367,%20La%20Plata,%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+				width="100%" 
+				height="100%" 
+				style="border:0;" 
+				allowfullscreen="" 
+				loading="lazy">
+			</iframe>
+		</div>
+		<!-- Map end -->
+		
+		<!-- Content -->
+		<div class="container content">
+			<div class="row">
+				<!-- Formulario con doble botón WhatsApp -->
+				<div class="col-md-8">
+					<h3 style="margin-top: 0;"><span>Envianos tu Consulta</span></h3>
+					<p style="color: #666; font-size: 14.5px; margin-bottom: 25px;">
+						Completá los datos de tu mascota y elegí a qué profesional derivar tu consulta directa por WhatsApp:
+					</p>
+					<form role="form" id="contact_form" onsubmit="event.preventDefault();">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="InputName" style="font-weight: 700; color: #1C463B;">Nombre y Apellido del Tutor *</label>
+									<input type="text" class="form-control" id="InputName" placeholder="Tu nombre y apellido" required style="height: 46px; padding: 10px 14px;">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="InputPhone" style="font-weight: 700; color: #1C463B;">Teléfono o WhatsApp de Contacto</label>
+									<input type="text" class="form-control" id="InputPhone" placeholder="Tu número de teléfono" style="height: 46px; padding: 10px 14px;">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="InputMessage" style="font-weight: 700; color: #1C463B;">Motivo de Consulta o Diagnóstico *</label>
+							<textarea class="form-control" id="InputMessage" placeholder="Contanos sobre tu mascota: especie, edad, diagnóstico del veterinario de cabecera o motivo de consulta..." rows="5" required style="padding: 12px;"></textarea>
+						</div>
+
+						<div class="row" style="margin-top: 25px;">
+							<div class="col-sm-6" style="margin-bottom: 15px;">
+								<button type="button" onclick="enviarConsultaWA('mayra')" class="btn btn-default btn-green btn-block" style="padding: 14px 16px; font-weight: 700; font-size: 14.5px; border-radius: 6px; display: flex; align-items: center; justify-content: center; gap: 10px; background: #25D366; border-color: #25D366; color: #ffffff;">
+									<img src="images/whatsapp.svg" alt="WhatsApp" style="width: 22px; height: 22px;">
+									<span>Enviar a Dra. Mayra</span>
+								</button>
+								<small style="display: block; text-align: center; color: #666; margin-top: 6px; font-weight: 600;">Fisiatría &bull; Acupuntura &bull; Dolor</small>
+							</div>
+							<div class="col-sm-6" style="margin-bottom: 15px;">
+								<button type="button" onclick="enviarConsultaWA('mariano')" class="btn btn-default btn-green btn-block" style="padding: 14px 16px; font-weight: 700; font-size: 14.5px; border-radius: 6px; display: flex; align-items: center; justify-content: center; gap: 10px; background: #1C463B; border-color: #1C463B; color: #ffffff;">
+									<img src="images/whatsapp.svg" alt="WhatsApp" style="width: 22px; height: 22px;">
+									<span>Enviar a Dr. Mariano</span>
+								</button>
+								<small style="display: block; text-align: center; color: #666; margin-top: 6px; font-weight: 600;">Rehabilitación &bull; Columna &bull; Neuro</small>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!-- Información con canales directos Mayra y Mariano -->
+				<div class="col-md-4">
+					<h3 style="margin-top: 0;"><span>Información</span></h3>
+					<ul class="contact-info">
+						<li class="address">
+							Calle 30 N.° 1367<br />
+							La Plata, Buenos Aires, Argentina
+						</li>
+						<li class="telephone">
+							Atención con Turno Previo<br />
+							Lunes a Viernes: 9 a 19 hs
+						</li>
+						<li class="mail">
+							Dirección Médica:<br />
+							M.V. Mayra Bazán<br />
+							M.V. Mariano Bonino
+						</li>
+					</ul>
+
+					<div style="margin-top: 25px; background: #fbfdfc; border: 1px solid #dce8e1; border-radius: 6px; padding: 20px;">
+						<h5 style="font-weight: 700; color: #1C463B; margin-top: 0; margin-bottom: 15px; font-size: 13.5px; text-transform: uppercase; letter-spacing: 0.5px;">Canales Directos WhatsApp:</h5>
+						
+						<a href="https://wa.me/5492216332777?text=Hola%20Dra.%20Mayra%20Baz%C3%A1n,%20quisiera%20hacer%20una%20consulta%20en%20CEFIRE." target="_blank" rel="noopener noreferrer" class="btn btn-default btn-block" style="background: #ffffff; border: 2px solid #25D366; color: #1C463B; padding: 12px 14px; margin-bottom: 12px; border-radius: 6px; font-weight: 700; display: flex; align-items: center; gap: 10px; text-decoration: none; transition: all 0.3s ease;">
+							<img src="images/whatsapp.svg" alt="WhatsApp" style="width: 24px; height: 24px; flex-shrink: 0;">
+							<span style="text-align: left; line-height: 1.25;">
+								<strong style="display: block; font-size: 13.5px; color: #1C463B;">WhatsApp Dra. Mayra</strong>
+								<small style="font-size: 11px; color: #25D366; font-weight: 700;">Fisioterapia &bull; Acupuntura &bull; Ozonoterapia</small>
+							</span>
+						</a>
+
+						<a href="https://wa.me/5492214086046?text=Hola%20Dr.%20Mariano%20Bonino,%20quisiera%20hacer%20una%20consulta%20en%20CEFIRE." target="_blank" rel="noopener noreferrer" class="btn btn-default btn-block" style="background: #ffffff; border: 2px solid #1C463B; color: #1C463B; padding: 12px 14px; border-radius: 6px; font-weight: 700; display: flex; align-items: center; gap: 10px; text-decoration: none; transition: all 0.3s ease;">
+							<img src="images/whatsapp.svg" alt="WhatsApp" style="width: 24px; height: 24px; flex-shrink: 0;">
+							<span style="text-align: left; line-height: 1.25;">
+								<strong style="display: block; font-size: 13.5px; color: #1C463B;">WhatsApp Dr. Mariano</strong>
+								<small style="font-size: 11px; color: #4F7F6B; font-weight: 700;">Fisioterapia &bull; Rehabilitaci&oacute;n</small>
+							</span>
+						</a>
+
+						<div style="margin-top: 18px; padding-top: 15px; border-top: 1px dashed #c9dcd2; text-align: center;">
+							<h6 style="font-weight: 700; color: #1C463B; margin-top: 0; margin-bottom: 10px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Comunidad en Instagram:</h6>
+							<a href="https://www.instagram.com/cefire.vet/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #1C463B; font-weight: 700; text-decoration: none; font-size: 13.5px; background: #ffffff; padding: 9px 16px; border-radius: 6px; border: 1.5px solid #dce8e1; width: 100%; box-shadow: 0 2px 6px rgba(0,0,0,0.04); transition: all 0.25s ease;">
+								<img src="images/instagram.svg" alt="Instagram CEFIRE" style="width: 20px; height: 20px;">
+								<span>@cefire.vet</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Content end -->
+		
+		<!-- Purchase / CTA -->
+		<div class="purchase">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<p><strong>CEFIRE</strong> Centro de Fisioterapia y Rehabilitación Veterinaria<br />
+						<span>M.V. Mayra Bazán &bull; M.V. Mariano Bonino &bull; Calle 30 N.° 1367, La Plata</span></p>
+					</div>
+					<div class="col-md-3 purchase-button">
+						<form method="get" action="turnos.html">
+							<button type="submit" class="btn btn-default btn-green">Pedir Turno</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Purchase end -->
+		
+		<!-- Footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<a href="index.html" class="footer-brand"><img src="images/cefire-logo-white.svg" alt="CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria" /></a>
+						<h6>Sobre CEFIRE</h6>
+						<p><strong>Centro dedicado a la fisioterapia, fisiatría, acupuntura y rehabilitación motriz animal.</strong></p>
+						<p>Dirección médica a cargo de la M.V. Mayra Bazán y el M.V. Mariano Bonino en La Plata, Buenos Aires.</p>
+					</div>
+					<div class="col-md-3 blog">
+						<h6>Servicios Destacados</h6>
+						<p class="title"><a href="services.html" title="Rehabilitaci&oacute;n Motriz">Rehabilitaci&oacute;n Motriz</a></p>
+						<p>Recuperación de parálisis, paresias y lesiones de columna con enfoque progresivo y sin dolor.</p>
+						<p><a href="services.html" title="Ver servicios">Ver todos los servicios&hellip;</a></p>
+					</div>
+					<div class="col-md-3">
+						<h6>Navegación</h6>
+						<ul>
+							<li><a href="index.html" title="Inicio">Inicio</a></li>
+							<li><a href="about.html" title="Nosotros">Nosotros</a></li>
+							<li><a href="services.html" title="Servicios">Servicios</a></li>
+							<li><a href="pacientes.html" title="Pacientes">Pacientes</a></li>
+							<li><a href="contact.html" title="Contacto">Contacto</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 contact-info">
+						<h6>Contacto</h6>
+						<p>Coordiná un turno o evaluación para tu mascota comunicándote con nuestro equipo.</p>
+						<p style="margin-top: 14px; margin-bottom: 18px;">
+							<a href="https://www.instagram.com/cefire.vet/" target="_blank" rel="noopener noreferrer" class="footer-ig-btn" title="Instagram @cefire.vet">
+								<img src="images/instagram.svg" alt="Instagram CEFIRE" />
+								<span>@cefire.vet</span>
+							</a>
+						</p>
+						<p class="c-details">
+							<span>Direcci&oacute;n:</span> Calle 30 N.&deg; 1367, La Plata<br />
+							<span>Turnos:</span> Atenci&oacute;n con turno previo
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 copyright">
+						<p>&copy; 2026 CEFIRE - Centro de Fisioterapia y Rehabilitaci&oacute;n Veterinaria. Desarrollado por <a href="https://www.linkedin.com/in/benjisalinas/" target="_blank" rel="noopener noreferrer" style="font-weight: 700; text-decoration: underline;">Benji Salinas</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer end -->
+		
+		<!-- Javascript plugins -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/carouFredSel.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/custom.js"></script>
+					<!-- Floating Dual WhatsApp Buttons -->
+		<div class="cefire-wa-floating">
+			<a href="https://wa.me/5492216332777?text=Hola%20Dra.%20Mayra%20Baz%C3%A1n,%20quisiera%20solicitar%20un%20turno%20en%20CEFIRE" target="_blank" rel="noopener noreferrer" class="wa-btn wa-mayra" title="WhatsApp Dra. Mayra Bazán">
+				<span class="wa-icon">
+					<img src="images/whatsapp.svg" alt="WhatsApp Dra. Mayra" />
+				</span>
+				<span class="wa-text"><strong>Dra. Mayra</strong> <span>Fisioterapia &bull; Acupuntura &bull; Ozono</span></span>
+			</a>
+			<a href="https://wa.me/5492214086046?text=Hola%20Dr.%20Mariano%20Bonino,%20quisiera%20solicitar%20un%20turno%20en%20CEFIRE" target="_blank" rel="noopener noreferrer" class="wa-btn wa-mariano" title="WhatsApp Dr. Mariano Bonino">
+				<span class="wa-icon">
+					<img src="images/whatsapp.svg" alt="WhatsApp Dr. Mariano" />
+				</span>
+				<span class="wa-text"><strong>Dr. Mariano</strong> <span>Fisioterapia &bull; Rehabilitaci&oacute;n</span></span>
+			</a>
+		</div>
+		<script>
+	function enviarConsultaWA(profesional) {
+		var nombre = document.getElementById('InputName').value.trim();
+		var tel = document.getElementById('InputPhone').value.trim();
+		var msg = document.getElementById('InputMessage').value.trim();
+
+		if (!nombre) {
+			alert('Por favor, ingresá tu Nombre y Apellido.');
+			document.getElementById('InputName').focus();
+			return;
+		}
+		if (!msg) {
+			alert('Por favor, contanos el Motivo de consulta o diagnóstico.');
+			document.getElementById('InputMessage').focus();
+			return;
+		}
+
+		var doctor = (profesional === 'mayra') ? 'Dra. Mayra Bazán' : 'Dr. Mariano Bonino';
+		var especialidad = (profesional === 'mayra') ? 'Fisioterapia, Acupuntura y Ozonoterapia' : 'Fisioterapia y Rehabilitación';
+		var phone = (profesional === 'mayra') ? '5492216332777' : '5492214086046';
+
+		var texto = 'Hola ' + doctor + ', te escribo desde la web de CEFIRE:\n\n' +
+					'*Tutor:* ' + nombre + '\n' +
+					(tel ? '*Teléfono:* ' + tel + '\n' : '') +
+					'*Consulta / Diagnóstico:* ' + msg + '\n\n' +
+					'_Dirigido a: ' + doctor + ' (' + especialidad + ')_';
+
+		var url = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(texto);
+		window.open(url, '_blank');
+	}
+	</script>
+</body>
+</html>
+
+
+
+
