@@ -99,4 +99,42 @@ $(function() {
 		}
 	});
 
+	// Banner de Consentimiento de Cookies CEFIRE
+	(function initCookieConsent() {
+		try {
+			var consent = localStorage.getItem('cefire_cookie_consent');
+			if (consent) {
+				return;
+			}
+			
+			var bannerHtml = '<div class="cefire-cookie-banner" id="cefireCookieBanner" role="dialog" aria-label="Aviso de cookies">' +
+				'<h5>🍪 Uso de Cookies en CEFIRE</h5>' +
+				'<p>Utilizamos cookies técnicas y funcionales para garantizar una navegación segura y el correcto funcionamiento del sitio. Podés conocer los detalles en nuestra <a href="cookies.html">Política de Cookies</a>.</p>' +
+				'<div class="cefire-cookie-actions">' +
+					'<button type="button" class="cefire-cookie-btn-accept" id="cefireAcceptCookies">Aceptar todas</button>' +
+					'<button type="button" class="cefire-cookie-btn-reject" id="cefireRejectCookies">Solo esenciales</button>' +
+				'</div>' +
+			'</div>';
+
+			$('body').append(bannerHtml);
+
+			function closeBanner(val) {
+				try {
+					localStorage.setItem('cefire_cookie_consent', val);
+				} catch(err) {}
+				$('#cefireCookieBanner').fadeOut(300, function() {
+					$(this).remove();
+				});
+			}
+
+			$('#cefireAcceptCookies').on('click', function() {
+				closeBanner('accepted');
+			});
+
+			$('#cefireRejectCookies').on('click', function() {
+				closeBanner('essential_only');
+			});
+		} catch(e) {}
+	})();
+
 });
