@@ -1,16 +1,16 @@
-# CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria
+﻿# CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria
 
 Sitio web oficial de **CEFIRE (La Plata, Buenos Aires, Argentina)**. Centro especializado en rehabilitación animal, fisioterapia clínica, acupuntura biofísica y ozonoterapia veterinaria.
 
 ## Dirección Médica
-- **M.V. Mayra Bazán**: Fisioterapia, Acupuntura Veterinaria y Ozonoterapia.
-- **M.V. Mariano Bonino**: Fisioterapia y Rehabilitación Motriz.
+- **MV Mayra Bazán**: Fisioterapia, Acupuntura Veterinaria y Ozonoterapia.
+- **MV Mariano Bonino**: Fisioterapia y Rehabilitación Motriz.
 
 ## Ubicación & Contacto
 - **Dirección**: Calle 30 N.° 1367, La Plata, Buenos Aires, Argentina.
 - **Atención**: Con turno previo coordinado.
-- **WhatsApp Dra. Mayra Bazán**: [+54 9 221 633-2777](https://wa.me/5492216332777)
-- **WhatsApp Dr. Mariano Bonino**: [+54 9 221 408-6046](https://wa.me/5492214086046)
+- **WhatsApp MV Mayra Bazán**: [+54 9 221 633-2777](https://wa.me/5492216332777)
+- **WhatsApp MV Mariano Bonino**: [+54 9 221 408-6046](https://wa.me/5492214086046)
 - **Instagram**: [@cefire.vet](https://www.instagram.com/cefire.vet/)
 
 ## Estructura del Sitio
