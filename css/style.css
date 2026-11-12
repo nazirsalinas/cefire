@@ -1664,7 +1664,7 @@ img {
 
 @media (max-width: 991px) {
 	.footer {
-		padding-bottom: 10px;
+		padding-bottom: 7px;
 	}
 
 	.footer .copyright {
@@ -1672,7 +1672,6 @@ img {
 		justify-content: center;
 		text-align: center;
 		gap: 8px;
-		padding-bottom: 10px;
 	}
 
 	.footer .copyright .legal-links {
@@ -2693,7 +2692,7 @@ img {
 
 @media (max-width: 767px) {
 	.cefire-wa-floating {
-		bottom: 100px;
+		bottom: 75px;
 		right: 14px;
 		gap: 8px;
 	}
