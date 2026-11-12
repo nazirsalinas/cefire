@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap oficial de CEFIRE
+Sitemap: https://cefirevet.com/sitemap.xml

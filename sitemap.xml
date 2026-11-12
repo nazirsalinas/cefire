@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<!-- Página Principal -->
+	<url>
+		<loc>https://cefirevet.com/</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+	<!-- Servicios (Índice y Especialidades) -->
+	<url>
+		<loc>https://cefirevet.com/services.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-fisioterapia.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-acupuntura.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-ozonoterapia.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-rehabilitacion-motriz.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-postquirurgicos.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-magnetoterapia.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/servicio-terapia-por-objetivos.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<!-- Ubicación, Contacto y Turnos -->
+	<url>
+		<loc>https://cefirevet.com/contact.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/turnos.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<!-- Institucional y Pacientes -->
+	<url>
+		<loc>https://cefirevet.com/about.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/pacientes.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<!-- Aspectos Legales y Normativos -->
+	<url>
+		<loc>https://cefirevet.com/privacidad.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.4</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/terminos.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.4</priority>
+	</url>
+	<url>
+		<loc>https://cefirevet.com/cookies.html</loc>
+		<lastmod>2026-11-12</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.4</priority>
+	</url>
+</urlset>
