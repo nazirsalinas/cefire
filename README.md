@@ -1,4 +1,4 @@
-﻿# CEFIRE - Centro de Fisioterapia y Rehabilitación Veterinaria
+﻿# CEFIREVET - Centro de Fisioterapia y Rehabilitación Veterinaria
 
 Sitio web oficial de **CEFIRE (La Plata, Buenos Aires, Argentina)**. Centro especializado en rehabilitación animal, fisioterapia clínica, acupuntura biofísica y ozonoterapia veterinaria.
 
